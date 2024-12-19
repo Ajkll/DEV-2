@@ -1,5 +1,5 @@
 import unittest
-from pion import Pion  # Assurez-vous que le fichier contenant la classe Pion est nommé `pion.py`
+from pion import Pion
 
 class TestPion(unittest.TestCase):
     def test_initialisation(self):
