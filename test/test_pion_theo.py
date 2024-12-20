@@ -21,15 +21,15 @@ class TestPion(unittest.TestCase):
         self.assertEqual(pion.position, 2)
 
     def test_reculer_sous_zero(self):
-        pion = Pion("Pion 1")
-        pion.reculer(3)
+        pion = Pion("Pion 2")
+        pion.reculer(1)
         self.assertEqual(pion.position, 0)
 
     def test_est_sur_case(self):
-        pion = Pion("Pion 1")
-        pion.deplacer(4)
-        self.assertTrue(pion.est_sur_case(4))
-        self.assertFalse(pion.est_sur_case(3))
+        pion = Pion("Pion 2")
+        pion.deplacer(5)
+        self.assertTrue(pion.est_sur_case(5))
+        self.assertFalse(pion.est_sur_case(4))
 
 if __name__ == "__main__":
     unittest.main()
