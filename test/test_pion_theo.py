@@ -1,6 +1,6 @@
 import unittest
 from pion import Pion
-
+#differents tests unitaires pour la class pion
 class TestPion(unittest.TestCase):
     def test_initialisation(self):
         pion = Pion("Pion 1")
