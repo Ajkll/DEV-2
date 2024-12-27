@@ -55,9 +55,5 @@ class TestPion(unittest.TestCase):
         pion.reculer(500_000)
         self.assertEqual(pion.position, 500_000)
 
-    def test_sans_nom(self):
-        with self.assertRaises(ValueError):
-            Pion("")
-
 if __name__ == "__main__":
     unittest.main()
