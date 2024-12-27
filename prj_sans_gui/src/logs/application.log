@@ -214,3 +214,9 @@
 2024-12-27 19:02:38,616 - __main__ - DEBUG - Tour du joueur: Pion 1
 2024-12-27 19:02:40,691 - __main__ - INFO - Action choisie par Pion 1: q
 2024-12-27 19:02:40,692 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.
+2024-12-27 21:32:59,487 - __main__ - INFO - Lancement du jeu de plateau.
+2024-12-27 21:32:59,498 - __main__ - DEBUG - Noms des joueurs: ['Pion 1', 'Pion 2'], Cases spéciales: {5: 'reculer', 8: 'question', 10: 'changement_map'}
+2024-12-27 21:32:59,498 - __main__ - INFO - Nouvelle partie initialisée.
+2024-12-27 21:32:59,498 - __main__ - DEBUG - Tour du joueur: Pion 1
+2024-12-27 21:33:02,083 - __main__ - INFO - Action choisie par Pion 1: q
+2024-12-27 21:33:02,084 - __main__ - WARNING - Arrêt du jeu demandé par le joueur.

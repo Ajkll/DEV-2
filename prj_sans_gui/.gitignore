@@ -1,6 +1,10 @@
 # Environnement Python
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.swp
 
 # Environnements virtuels
 .env/
