@@ -9,4 +9,4 @@ class ChangementMap:
         jeu.plateau = nouvelle_map
 
         for pion in jeu.pions:
-            pion.position = 0
+            pion.position = 1
