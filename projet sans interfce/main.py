@@ -7,6 +7,7 @@ def main():
     # Initialisation du jeu
     noms_joueurs = ["Pion 1", "Pion 2"]
     cases_speciales = {
+        2: "question",
         5: "reculer",
         8: "question",
         10: "changement_map"
