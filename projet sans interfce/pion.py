@@ -4,6 +4,8 @@ class Pion:
         self.position = 0
 
     def deplacer(self, pas):
+        if pas < 0:
+            raise ValueError("Le nombre de pas doit être positif.")
         self.position += pas
 
     def reculer(self, pas):
