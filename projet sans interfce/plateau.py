@@ -1,8 +1,8 @@
 class Plateau:
-    def __init__(self, taille=10, cases_speciales=None):
+    def __init__(self, taille=12, cases_speciales=None):
         self.taille = taille
         self.cases = [f"Case {i}" for i  in range(taille)]
-        self.cases_speciales = cases_speciales
+        self.cases_speciales = cases_speciales if cases_speciales else {}
 
     def est_case_valide(self, case):
         return  0 <= case < self.taille
