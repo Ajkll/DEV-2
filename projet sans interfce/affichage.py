@@ -29,7 +29,7 @@ class Affichage:
         for option in question["options"]:
             print(option)
 
-        while True:  # Boucle pour demander une entrée valide
+        while True: #verifie l'entrée d"un nombre
             reponse = input("Votre réponse (entrez le numéro de l'option) : ").strip()
             if reponse.isdigit(): 
                 return int(reponse)
