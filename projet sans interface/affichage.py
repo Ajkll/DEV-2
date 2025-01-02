@@ -29,9 +29,9 @@ class Affichage:
         for option in question["options"]:
             print(option)
 
-        while True:  # Boucle pour demander une entrée valide
+        while True:  # while pour verifier le numero
             reponse = input("Votre réponse (entrez le numéro de l'option) : ").strip()
-            if reponse.isdigit():  # Vérifie que l'entrée est un nombre
+            if reponse.isdigit():
                 return int(reponse)
             else:
                 print("Choix de réponse invalide. Veuillez entrer un numéro de réponses.")
