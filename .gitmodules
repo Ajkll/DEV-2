@@ -1,0 +1,3 @@
+[submodule "dev2-prod/temp-submodule"]
+	path = dev2-prod/temp-submodule
+	url = https://github.com/Ajkll/dev2_jeux_plateau_prod.git
